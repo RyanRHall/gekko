@@ -6,13 +6,13 @@
 const CONFIG = {
   headless: true,
   api: {
-    host: '0.0.0.0',
+    host: '127.0.0.1',
     port: 3000,
     // timeout: 120000 // 2 minutes
   },
   ui: {
     ssl: true,
-    host: '5ec2-54-245-44-243.us-west-2.compute.amazonaws.com',
+    host: '52.34.80.192',
     port: 443,
     path: '/'
   },
