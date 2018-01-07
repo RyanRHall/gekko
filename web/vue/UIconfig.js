@@ -12,7 +12,7 @@ const CONFIG = {
   },
   ui: {
     ssl: false,
-    host: 'ec2-52-34-80-192.us-west-2.compute.amazonaws.com',
+    host: '54.245.198.64',
     port: 3000,
     path: '/'
   },

@@ -1,2 +1,2 @@
 #!/bin/sh
-ssh -i ~/.ssh/AWSGekko.pem ec2-user@52.34.80.192
+ssh -i ~/.ssh/AWSGekko.pem ubuntu@54.245.198.64
