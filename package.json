@@ -11,9 +11,9 @@
   ],
   "scripts": {
     "test": "./node_modules/.bin/mocha test/*.js --recursive test -u tdd --reporter spec",
-    "start": "node ./gekko --config config.js --ui",
-    "connect": "./bin/connect.sh",
-    "deploy": "npm run connect; git pull origin deploy"
+    "start": "NODE_ENV=development node ./gekko --config config.js --ui",
+    "start_production": "NODE_ENV=production node ./gekko --config config.js --ui",
+    "connect": "./bin/connect.sh"
   },
   "author": "Mike van Rossum <mike@mvr.me>",
   "dependencies": {
