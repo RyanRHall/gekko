@@ -45,3 +45,6 @@ TMP_*
 .idea
 volumes
 SECRET-api-keys.json
+
+# Config
+UIconfig.js
