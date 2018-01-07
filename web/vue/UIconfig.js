@@ -11,9 +11,9 @@ const CONFIG = {
     // timeout: 120000 // 2 minutes
   },
   ui: {
-    ssl: true,
+    ssl: false,
     host: 'ec2-52-34-80-192.us-west-2.compute.amazonaws.com',
-    port: 443,
+    port: 3000,
     path: '/'
   },
   adapter: 'sqlite'
