@@ -11,9 +11,9 @@ const CONFIG = {
     // timeout: 120000 // 2 minutes
   },
   ui: {
-    ssl: true,
-    host: '54.245.198.64',
-    port: 443,
+    ssl: false,
+    host: '127.0.0.1',
+    port: 3000,
     path: '/'
   },
   adapter: 'sqlite'
