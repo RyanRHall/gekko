@@ -11,9 +11,9 @@ const CONFIG = {
     // timeout: 120000 // 2 minutes
   },
   ui: {
-    ssl: process.env.NODE_ENV === "production",
-    host: process.env.NODE_ENV === "production" ? '54.245.198.64' : "localhost" ,
-    port: process.env.NODE_ENV === "production" ? 443 : 3000,
+    ssl: true,
+    host: '54.245.198.64',
+    port: 443,
     path: '/'
   },
   adapter: 'sqlite'
