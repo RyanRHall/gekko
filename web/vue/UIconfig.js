@@ -6,13 +6,13 @@
 const CONFIG = {
   headless: true,
   api: {
-    host: '127.0.0.1',
-    port: 3000,
-    timeout: 120000 // 2 minutes
+    host: '0.0.0.0',
+    port: 80,
+    // timeout: 120000 // 2 minutes
   },
   ui: {
     ssl: false,
-    host: '127.0.0.1',
+    host: '54.245.44.243',
     port: 80,
     path: '/'
   },
